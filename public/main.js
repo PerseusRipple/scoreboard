@@ -19,7 +19,7 @@ const addOneTeamOne = () => {
 	document.querySelector('.team1Score').textContent = counter1
 }
 
-// Sub 1 Team 1
+// Subtract 1 Team 1
 const subtractTeamOne = () => {
 	console.log('button clicked subtracted 1')
 	counter1--
@@ -59,21 +59,7 @@ const resetCounter2 = () => {
 	document.querySelector('.team2Score').textContent = counter2
 }
 
-/* // Reset Team 1 Name
-const resetTeamOneName = () => {
-	teamOne = document.querySelector('.team1-update-name').value
-	console.log('teamOne name change')
-	document.querySelector('.new-name1').textContent = teamOne
-	console.log('teamOne')
-}
-
-// Reset Team 2 Name
-const resetTeamTwoName = () => {
-	teamTwo = document.querySelector('.team2-update-name').value
-	console.log('button clicked for name change')
-	document.querySelector('.new-name2').textContent = teamTwo
-	console.log('teamTwo')
-} */
+// Update Team 1 Name
 
 document.addEventListener('DOMContentLoaded', main)
 //  Team 1 Score Events
@@ -99,13 +85,13 @@ document
 
 document
 	.querySelector('.update-team-1-name')
-	.addEventListener('click', changeTeamOne)
+	.addEventListener('click', resetCounter1)
 
 // Team 2 Update Name Events
 
 document
 	.querySelector('.update-team-2-name')
-	.addEventListener('click', changeTeamTwo)
+	.addEventListener('click', resetCounter2)
 
 // Team 1 Reset Score Button
 
