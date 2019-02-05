@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scoreboard</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1 class='hello-world'></h1>
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
+	<head lang="en">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Scoreboard</title>
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="stylesheet" href="/screen.css" />
+	</head>
+	<body>
+		<!--Score Area-->
+		<h1>My Score Board</h1>
+		<section class="score-area">
+			<!--Team 1-->
+			<section class="team1">
+				<h2 class="new-name1">Team 1</h2>
+				<p class="team1Score">10</p>
+			</section>
+			<!--Team 2-->
+			<section class="team2">
+				<h2 class="new-name2">Team 2</h2>
+				<p class="team2Score">10</p>
+			</section>
+		</section>
+		<!--Update Score Section-->
+		<section class="update-score">
+			<!--Update Team 1 Name-->
+			<section class="team1">
+				<section class="team-name">
+					update team 1 name
+					<input class="team1-update-name" type="text" />
+					<button class="update-team-1-name">Update</button>
+				</section>
+				<!--Update Team 1 Score-->
+				<section>
+					update team 1 score
+					<button class="team-1-add-1-button">add 1</button>
+					<button class="team-1-subtract-1-button">subtract 1</button>
+					<button class="team-1-reset-button">reset</button>
+				</section>
+			</section>
+			<!--Update Team 2 Name-->
+			<section class="team2">
+				<section class="team-name">
+					update team 2 name
+					<input class="team2-update-name" type="text" />
+					<button class="update-team-2-name">Update</button>
+				</section>
+				<section>
+					<!--Update Team 2 Score-->
+					update team 2 score
+					<button class="team-2-add-1-button">add 1</button>
+					<button class="team-2-subtract-1-button">subtract 1</button>
+					<button class="team-2-reset-button">reset</button>
+				</section>
+			</section>
+		</section>
+
+		<script src="/main.js" charset="utf-8"></script>
+	</body>
 </html>
