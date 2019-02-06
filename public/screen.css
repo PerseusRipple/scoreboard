@@ -22,7 +22,7 @@ h1 {
   display: flex;
   justify-content: center;
   border: 0.5rem solid black;
-  width: auto;
+  width: 100%;
 }
 
 .new-name1 {
@@ -115,6 +115,10 @@ input {
 @media only screen and (min-width: 700px) {
   h1 {
     font-size: 3rem;
+  }
+  .score-area {
+    display: flex;
+    justify-content: space-between;
   }
   .update-score {
     font-size: 2rem;
