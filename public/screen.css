@@ -1,120 +1,122 @@
 :root {
-	font: 16px / 1 sans-serif;
+  font: 16px / 1 sans-serif;
 }
 
 html {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	margin: 0;
-	min-height: 100%;
+  margin: 0;
+  min-height: 100%;
 }
 
 h1 {
-	text-align: center;
-	border: 1rem dotted rgb(255, 172, 48);
-	padding: 1rem;
-	width: auto;
+  text-align: center;
+  border: 1rem dotted rgb(255, 172, 48);
+  padding: 1rem;
+  width: auto;
 }
 
 .score-area {
-	display: flex;
-	justify-content: center;
-	border: 0.5rem solid black;
-	width: auto;
+  display: flex;
+  justify-content: center;
+  border: 0.5rem solid black;
+  width: auto;
 }
 
 .new-name1 {
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-	border: 0.25rem solid hotpink;
-	margin: 1rem;
-	padding: 0.5rem;
-	width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: 0.25rem solid hotpink;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 .new-name2 {
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-	border: 0.25rem solid hotpink;
-	margin: 1rem;
-	padding: 0.5rem;
-	width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border: 0.25rem solid hotpink;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 .score-area p {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	font-size: 3rem;
-	border: 0.25rem solid purple;
-	width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3rem;
+  border: 0.25rem solid purple;
+  width: 100%;
 }
 
 .update-score {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	border: 0.25rem solid pink;
-	width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 0.25rem solid pink;
+  width: auto;
 }
 
 .update-score .team-name {
-	display: flex;
-	flex-direction: row;
-	border: 0.25rem solid red;
+  display: flex;
+  flex-direction: row;
+  border: 0.25rem solid red;
 }
 
 /* .team-name {} */
 
 .update-score section {
-	display: flex;
-	flex-direction: column;
-	margin: 1rem;
-	border: 0.25rem solid green;
-	width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border: 0.25rem solid green;
+  width: auto;
 }
 
 #update {
-	color: whitesmoke;
-	background-color: rgb(0, 52, 165, 1);
+  color: whitesmoke;
+  background-color: rgb(0, 52, 165, 1);
 }
 
 input {
-	width: 100%;
-	border: 0.15rem solid black;
+  width: 100%;
+  border: 0.15rem solid black;
 }
 
 #add {
-	font-size: 0.75rem;
-	font-weight: 700;
-	color: whitesmoke;
-	background-color: rgb(115, 187, 42);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: whitesmoke;
+  background-color: rgb(115, 187, 42);
 }
 
 #subtract {
-	font-size: 0.75rem;
-	font-weight: 700;
-	color: whitesmoke;
-	background-color: rgba(221, 208, 30, 0.801);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: whitesmoke;
+  background-color: rgba(221, 208, 30, 0.801);
 }
 
 #reset {
-	font-size: 0.75rem;
-	font-weight: 700;
-	color: whitesmoke;
-	background-color: rgba(221, 30, 135, 0.801);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: whitesmoke;
+  background-color: rgba(221, 30, 135, 0.801);
 }
 
 @media only screen and (min-width: 700px) {
-	h1 {
-		font-size: 3rem;
-	}
-	.update-score {
-		font-size: 2rem;
-	}
+  h1 {
+    font-size: 3rem;
+  }
+  .update-score {
+    font-size: 2rem;
+  }
 }
