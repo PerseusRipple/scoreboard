@@ -7,11 +7,13 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0.5rem;
   min-height: 100%;
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   text-align: center;
   border: 1rem dotted rgb(255, 172, 48);
   padding: 1rem;
@@ -20,7 +22,7 @@ h1 {
 
 .score-area {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   border: 0.5rem solid black;
   width: 100%;
 }
@@ -32,7 +34,7 @@ h1 {
   text-align: center;
   flex-direction: column;
   border: 0.25rem solid hotpink;
-  margin: 1rem;
+  /* margin: 1rem; */
   padding: 0.5rem;
   width: 100%;
 }
@@ -41,8 +43,8 @@ h1 {
   display: flex;
   text-align: center;
   flex-direction: column;
-  border: 0.25rem solid hotpink;
-  margin: 1rem;
+  border: 0.25rem solid blue;
+  /* margin: 1rem; */
   padding: 0.5rem;
   width: 100%;
 }
