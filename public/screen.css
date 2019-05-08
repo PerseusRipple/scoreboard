@@ -11,41 +11,37 @@ body {
   min-height: 100%;
 }
 h1 {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   text-align: center;
   border: 1rem dotted rgb(255, 172, 48);
   padding: 1rem;
+  margin: 0.5rem;
   width: auto;
 }
 
 .score-area {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
   border: 0.5rem solid black;
-  width: 100%;
+  width: auto;
+  /* height: 100%; */
 }
 
-.new-name1 {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
+.team1,
+.team2 {
+  display: block;
   flex-direction: column;
+  justify-content: center;
+  /* justify-items: center; */
+  text-align: center;
+
   border: 0.25rem solid hotpink;
   /* margin: 1rem; */
   padding: 0.5rem;
-  width: 100%;
-}
-
-.new-name2 {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  border: 0.25rem solid blue;
-  /* margin: 1rem; */
-  padding: 0.5rem;
-  width: 100%;
+  width: 45%;
 }
 
 .score-area p {
@@ -55,31 +51,29 @@ h1 {
   flex-direction: column;
   font-size: 3rem;
   border: 0.25rem solid purple;
-  width: 100%;
+  height: 5rem;
 }
 
-/* .update-score {
+.update-score {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  border: 0.25rem solid pink;
-  width: auto;
-} */
-
-.update-score .team-name {
-  display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  border: 0.25rem solid red;
+  border: 0.25rem solid pink;
+  width: 50%;
 }
-
-/* .team-name {} */
 
 .update-score section {
   display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  border: 0.25rem solid green;
-  width: auto;
+  justify-content: space-around;
+  flex-direction: row;
+  /* margin: 1rem; */
+}
+
+.update-score button {
+  min-width: 5rem;
+  max-width: 5rem;
+  padding: 0.5rem;
+  margin: 0.25rem;
 }
 
 #update {

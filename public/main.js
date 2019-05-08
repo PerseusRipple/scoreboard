@@ -91,6 +91,14 @@ const updateTeamTwo = () => {
   document.querySelector('.new-name2').textContent = teamTwo
 }
 
+// //Reset Team 1 Name
+
+// const resetTeamOneName = () => {
+//   teamOne = document.querySelector('.team1-reset-name')
+//   .value
+//   document.querySelector('')
+// }
+
 // EVENTS //
 
 document.addEventListener('DOMContentLoaded', main)
