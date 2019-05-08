@@ -10,7 +10,6 @@ body {
   margin: 0.5rem;
   min-height: 100%;
 }
-
 h1 {
   display: flex;
   justify-content: center;
@@ -59,13 +58,13 @@ h1 {
   width: 100%;
 }
 
-.update-score {
+/* .update-score {
   display: flex;
   justify-content: center;
   flex-direction: column;
   border: 0.25rem solid pink;
   width: auto;
-}
+} */
 
 .update-score .team-name {
   display: flex;
