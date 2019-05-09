@@ -91,13 +91,29 @@ const updateTeamTwo = () => {
   document.querySelector('.new-name2').textContent = teamTwo
 }
 
-// //Reset Team 1 Name
+// Reset Team 1 Name
 
-// const resetTeamOneName = () => {
-//   teamOne = document.querySelector('.team1-reset-name')
-//   .value
-//   document.querySelector('')
-// }
+const clearTeamOne = () => {
+  console.log('clearing team1')
+  teamOne = document.querySelector('.clear-team-1-name').value
+  teamOne = 'Team 1'
+  console.log('reset input to ' + 'team1')
+  document.querySelector('.new-name1').textContent = teamOne
+  // teamOne = document.querySelector('').value
+  // teamOne = 'Team 1'
+  document.querySelector('.team1-update-name').value = ''
+}
+
+// Reset Team 2 Name
+
+const clearTeamTwo = () => {
+  console.log('clearing team2')
+  teamOne = document.querySelector('.clear-team-2-name').value
+  teamTwo = 'Team 2'
+  console.log('reset input to ' + 'team2')
+  document.querySelector('.new-name2').textContent = teamTwo
+  document.querySelector('.team2-update-name').value = ''
+}
 
 // EVENTS //
 
@@ -147,19 +163,17 @@ document
   .querySelector('.team-2-reset-button')
   .addEventListener('click', resetCounter2)
 
-/* // Team 1 Reset Name Button
-
-
-
+// Team 1 Reset Name Button
 
 document
-	.querySelector('.reset-team-1-name')
-	.addEventListener('click', resetTeamOneName)
+  .querySelector('.clear-team-1-name')
+  .addEventListener('click', clearTeamOne)
 
 // Team 2 Reset Name Button
+
 document
-	.querySelector('.reset-team-2-name')
-	.addEventListener('click', resetTeamTwoName) */
+  .querySelector('.clear-team-2-name')
+  .addEventListener('click', clearTeamTwo)
 
 /*
 document

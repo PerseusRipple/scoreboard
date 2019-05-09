@@ -9,7 +9,7 @@
   </head>
   <body>
     <!--Score Area-->
-    <h1>My Score Board</h1>
+    <h1>Basic Score Board</h1>
     <section class="score-area">
       <!--Team 1-->
       <section class="team1">
@@ -18,9 +18,10 @@
 
         <!--Update Team 1 Name-->
 
-        <label for="new name">Enter a New Team Name</label>
+        <label for="new name">Enter Team Name</label>
         <input class=" team1-update-name" type="text" />
         <button id="update" class="update-team-1-name">Update</button>
+        <button id="clear" class="clear-team-1-name">Clear</button>
 
         <p class="team1Score">10</p>
 
@@ -41,9 +42,10 @@
         <section class="team-name"></section>
         <h2 class="new-name2">Team 2</h2>
 
-        <label for="new name">Enter a New Team Name</label>
+        <label for="new name">Enter Team Name</label>
         <input class=" team2-update-name" type="text" />
         <button id="update" class="update-team-2-name">Update</button>
+        <button id="clear" class="clear-team-2-name">Clear</button>
 
         <p class="team2Score">10</p>
 
@@ -58,6 +60,9 @@
           <button id="reset" class="team-2-reset-button">reset</button>
         </section>
       </section>
+    </section>
+    <section class="winner">
+      <h1></h1>
     </section>
 
     <script src="/main.js" charset="utf-8"></script>
