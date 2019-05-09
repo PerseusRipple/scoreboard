@@ -4,6 +4,9 @@ let counter2 = 0
 let teamOne = 'Team 1'
 let teamTwo = 'Team 2'
 
+// let winnerOne = 'Winner 1'
+// let winnerTwo = 'Winner 2'
+
 const main = () => {
   document.querySelector('.team1Score').textContent = 0
   document.querySelector('.team2Score').textContent = 0
@@ -15,8 +18,8 @@ const main = () => {
 const addOneTeamOne = () => {
   console.log('button clicked added 1')
   counter1++
-  if (counter1 >= 22) {
-    document.querySelector('.team1Score').textContent = teamOne + 'WINNER!'
+  if (counter1 >= 9) {
+    document.querySelector('.winnerBox').textContent = teamOne + ' You WON!!!'
     return
   }
   console.log('counter1 ')
@@ -39,8 +42,8 @@ const subtractTeamOne = () => {
 const addOneTeamTwo = () => {
   console.log('button clicked added 1')
   counter2++
-  if (counter2 >= 22) {
-    document.querySelector('.team2Score').textContent = teamTwo + 'WINNER!'
+  if (counter2 >= 9) {
+    document.querySelector('.winnerBox').textContent = teamTwo + ' You WON!!!'
     return
   }
   console.log('counter2 ')
@@ -63,6 +66,7 @@ const resetCounter1 = () => {
   counter1 = 0
   console.log('reset counter to ' + 'counter1')
   document.querySelector('.team1Score').textContent = counter1
+  document.querySelector('.winnerBox').textContent = ''
 }
 
 // Reset Counter Team 2
@@ -71,6 +75,7 @@ const resetCounter2 = () => {
   counter2 = 0
   console.log('reset counter to ' + 'counter2')
   document.querySelector('.team2Score').textContent = counter2
+  document.querySelector('.winnerBox').textContent = ''
 }
 
 // Update Team 1 Name

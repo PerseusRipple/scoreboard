@@ -136,6 +136,7 @@ input {
   }
 }
 
-/* .winner h1 {
-  min-height: 10rem;
-} */
+.winnerBox {
+  font-size: 2rem;
+  color: #bada55;
+}
